@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		167C913C53DB50BAD61555E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 167C9FCBB1D56152370537C4 /* InfoPlist.strings */; };
+		167C92097C4162B3F4C59768 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 167C93F2D906056833D704A7 /* main.m */; };
+		167C922A515C8F563E794505 /* UIViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 167C97B191F8C385A86A00C4 /* UIViewController1.m */; };
+		167C92728CEE05E70FA514B6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167C905EA90AE82C9253D69A /* SenTestingKit.framework */; };
+		167C92B2D3550AC730E1B6D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167C94C86DB28D5813F8E3C1 /* Foundation.framework */; };
+		167C956EA55F6347CD665BF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167C952DC4DAA00050D043AC /* UIKit.framework */; };
+		167C961B9403F8BF57FDBC45 /* UIViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 167C9B6061B5FEBEF449611E /* UIViewController2.m */; };
+		167C962205FB14246CADA063 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167C952DC4DAA00050D043AC /* UIKit.framework */; };
+		167C962CA05A5E04B71F322A /* SmartNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 167C963B16F9274C03DF2EBF /* SmartNavigationControllerTests.m */; };
+		167C9649F7B27645DFE69F9C /* UIViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 167C9E192A5D76445ED3E0BF /* UIViewController1.m */; };
+		167C970564BC99BB84385C62 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 167C91431127A8CA69EB6F07 /* Default@2x.png */; };
+		167C98BD89BADF91B4D17D95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 167C9F8CA42D02C17C85D302 /* InfoPlist.strings */; };
+		167C9BF4276ADDD525865339 /* SmartNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 167C9D0BF67806111301934A /* SmartNavigationController.m */; };
+		167C9C9A5D117F2C1BE2264D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167C94C86DB28D5813F8E3C1 /* Foundation.framework */; };
+		167C9CAAE6B06046C6F70EB4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 167C93E596CBC504B7F034D5 /* Default-568h@2x.png */; };
+		167C9E3C0A2AB45CBD9F9A93 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 167C94855F05B418F152FEDB /* Default.png */; };
+		167C9E722301F552AEF9C98F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 167C9E6E1B403C9924F16626 /* AppDelegate.m */; };
+		167C9F0060B9EF6A27F04152 /* SmartNavigationController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 167C9A80BFE03353FB438553 /* SmartNavigationController1.m */; };
+		167C9F65C83518C0EF7CC5E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167C9E1648BB649BFE02282D /* CoreGraphics.framework */; };
+		3996DA93176A303000A59299 /* UIViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 167C9E192A5D76445ED3E0BF /* UIViewController1.m */; };
+		3996DA94176A308900A59299 /* UIViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 167C9B6061B5FEBEF449611E /* UIViewController2.m */; };
+		8B93269B66A74E65BCC22E05 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E84E53EC3A0641E5B25209C0 /* libPods.a */; settings = {}; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		167C98C7D98824D19346FB82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 167C93A94F4D6163C204F9F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 167C976DD5888985D3BFE1D6;
+			remoteInfo = SmartNavigationController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		167C905EA90AE82C9253D69A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		167C91431127A8CA69EB6F07 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		167C91D6D776024DD0012F42 /* SmartNavigationControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "SmartNavigationControllerTests-Info.plist"; sourceTree = "<group>"; };
+		167C93E596CBC504B7F034D5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		167C93F2D906056833D704A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		167C9455A66F64E862A575F5 /* SmartNavigationController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "SmartNavigationController-Info.plist"; sourceTree = "<group>"; };
+		167C94855F05B418F152FEDB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		167C94C86DB28D5813F8E3C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		167C94E4C1EF529B4C4171AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		167C9529D31B218FBB804119 /* UIViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewController1.h; sourceTree = "<group>"; };
+		167C952DC4DAA00050D043AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		167C952FB362DBB7DFCBEDA1 /* SmartNavigationControllerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartNavigationControllerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		167C95AA764BFC4F637BB41D /* SmartNavigationControllerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartNavigationControllerTests.h; sourceTree = "<group>"; };
+		167C9634A79531F19B671317 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		167C963B16F9274C03DF2EBF /* SmartNavigationControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartNavigationControllerTests.m; sourceTree = "<group>"; };
+		167C97B191F8C385A86A00C4 /* UIViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewController1.m; sourceTree = "<group>"; };
+		167C98FDA319839020FFE229 /* UIViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIViewController2.h; path = SmartNavigationControllerTests/UIViewController2.h; sourceTree = SOURCE_ROOT; };
+		167C995B472215E08BBFA97A /* SmartNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		167C9A80BFE03353FB438553 /* SmartNavigationController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartNavigationController1.m; sourceTree = "<group>"; };
+		167C9B6061B5FEBEF449611E /* UIViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIViewController2.m; path = SmartNavigationControllerTests/UIViewController2.m; sourceTree = SOURCE_ROOT; };
+		167C9C8A041ADEAA155E4E1B /* SmartNavigationController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartNavigationController-Prefix.pch"; sourceTree = "<group>"; };
+		167C9CC96435F56566E206F1 /* SmartNavigationController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartNavigationController1.h; sourceTree = "<group>"; };
+		167C9D0BF67806111301934A /* SmartNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartNavigationController.m; sourceTree = "<group>"; };
+		167C9E1648BB649BFE02282D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		167C9E192A5D76445ED3E0BF /* UIViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewController1.m; sourceTree = "<group>"; };
+		167C9E6E1B403C9924F16626 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		167C9EBE89D88A75B821AF58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		167C9F42B42ED9C4661359D7 /* SmartNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartNavigationController.h; sourceTree = "<group>"; };
+		167C9FDDDE0635C1223B45C1 /* UIViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewController1.h; sourceTree = "<group>"; };
+		E5FB2CC433B34BAAB472C52C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		E84E53EC3A0641E5B25209C0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPods.a; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		167C978F755C04F09351BF3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167C962205FB14246CADA063 /* UIKit.framework in Frameworks */,
+				167C9C9A5D117F2C1BE2264D /* Foundation.framework in Frameworks */,
+				167C9F65C83518C0EF7CC5E8 /* CoreGraphics.framework in Frameworks */,
+				8B93269B66A74E65BCC22E05 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167C9DB239B0C97A59E9DCB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167C92728CEE05E70FA514B6 /* SenTestingKit.framework in Frameworks */,
+				167C956EA55F6347CD665BF8 /* UIKit.framework in Frameworks */,
+				167C92B2D3550AC730E1B6D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		167C9134A7DC69372EB8F06F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				167C91D6D776024DD0012F42 /* SmartNavigationControllerTests-Info.plist */,
+				167C9FCBB1D56152370537C4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		167C940A53B36ED3F9FDF5EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				167C9455A66F64E862A575F5 /* SmartNavigationController-Info.plist */,
+				167C9F8CA42D02C17C85D302 /* InfoPlist.strings */,
+				167C93F2D906056833D704A7 /* main.m */,
+				167C9C8A041ADEAA155E4E1B /* SmartNavigationController-Prefix.pch */,
+				167C94855F05B418F152FEDB /* Default.png */,
+				167C91431127A8CA69EB6F07 /* Default@2x.png */,
+				167C93E596CBC504B7F034D5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		167C95BAC7CE75B46A402C51 = {
+			isa = PBXGroup;
+			children = (
+				167C96B06266CC11248948ED /* Products */,
+				167C965D27707067638527F8 /* Frameworks */,
+				167C99B3DC7265B20644039A /* SmartNavigationController */,
+				167C966352708EC8D3C411DB /* SmartNavigationControllerTests */,
+				E5FB2CC433B34BAAB472C52C /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		167C965D27707067638527F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				167C952DC4DAA00050D043AC /* UIKit.framework */,
+				167C94C86DB28D5813F8E3C1 /* Foundation.framework */,
+				167C9E1648BB649BFE02282D /* CoreGraphics.framework */,
+				167C905EA90AE82C9253D69A /* SenTestingKit.framework */,
+				E84E53EC3A0641E5B25209C0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		167C966352708EC8D3C411DB /* SmartNavigationControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				167C9134A7DC69372EB8F06F /* Supporting Files */,
+				167C95AA764BFC4F637BB41D /* SmartNavigationControllerTests.h */,
+				167C963B16F9274C03DF2EBF /* SmartNavigationControllerTests.m */,
+				167C9E192A5D76445ED3E0BF /* UIViewController1.m */,
+				167C9529D31B218FBB804119 /* UIViewController1.h */,
+				167C9A80BFE03353FB438553 /* SmartNavigationController1.m */,
+				167C9CC96435F56566E206F1 /* SmartNavigationController1.h */,
+			);
+			path = SmartNavigationControllerTests;
+			sourceTree = "<group>";
+		};
+		167C96B06266CC11248948ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				167C995B472215E08BBFA97A /* SmartNavigationController.app */,
+				167C952FB362DBB7DFCBEDA1 /* SmartNavigationControllerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		167C99B3DC7265B20644039A /* SmartNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				167C940A53B36ED3F9FDF5EC /* Supporting Files */,
+				167C9634A79531F19B671317 /* AppDelegate.h */,
+				167C9E6E1B403C9924F16626 /* AppDelegate.m */,
+				167C9D0BF67806111301934A /* SmartNavigationController.m */,
+				167C9F42B42ED9C4661359D7 /* SmartNavigationController.h */,
+				167C97B191F8C385A86A00C4 /* UIViewController1.m */,
+				167C9FDDDE0635C1223B45C1 /* UIViewController1.h */,
+				167C9B6061B5FEBEF449611E /* UIViewController2.m */,
+				167C98FDA319839020FFE229 /* UIViewController2.h */,
+			);
+			path = SmartNavigationController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		167C95AE01AA7235BD0DED5D /* SmartNavigationControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167C916C045051748DBEAE79 /* Build configuration list for PBXNativeTarget "SmartNavigationControllerTests" */;
+			buildPhases = (
+				167C9E9104520D54AEBB2744 /* Sources */,
+				167C9DB239B0C97A59E9DCB9 /* Frameworks */,
+				167C9808F87B5AAE378E1AD1 /* Resources */,
+				167C945BB2D82EBDE6C18899 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167C96661B689D99D24BB95E /* PBXTargetDependency */,
+			);
+			name = SmartNavigationControllerTests;
+			productName = SmartNavigationControllerTests;
+			productReference = 167C952FB362DBB7DFCBEDA1 /* SmartNavigationControllerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		167C976DD5888985D3BFE1D6 /* SmartNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167C9479EEB9DF89C8881A9B /* Build configuration list for PBXNativeTarget "SmartNavigationController" */;
+			buildPhases = (
+				E45AA0F34AA241ED9FAF2A56 /* Check Pods Manifest.lock */,
+				167C9A6296F0550CAFE6EE38 /* Sources */,
+				167C978F755C04F09351BF3A /* Frameworks */,
+				167C9851ADB0F57A46E866AE /* Resources */,
+				7DFA940703AC4D8C9517D8ED /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartNavigationController;
+			productName = SmartNavigationController;
+			productReference = 167C995B472215E08BBFA97A /* SmartNavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		167C93A94F4D6163C204F9F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 167C9C1D991D552867283FA6 /* Build configuration list for PBXProject "SmartNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 167C95BAC7CE75B46A402C51;
+			productRefGroup = 167C96B06266CC11248948ED /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				167C976DD5888985D3BFE1D6 /* SmartNavigationController */,
+				167C95AE01AA7235BD0DED5D /* SmartNavigationControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		167C9808F87B5AAE378E1AD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167C913C53DB50BAD61555E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167C9851ADB0F57A46E866AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167C98BD89BADF91B4D17D95 /* InfoPlist.strings in Resources */,
+				167C9E3C0A2AB45CBD9F9A93 /* Default.png in Resources */,
+				167C970564BC99BB84385C62 /* Default@2x.png in Resources */,
+				167C9CAAE6B06046C6F70EB4 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		167C945BB2D82EBDE6C18899 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		7DFA940703AC4D8C9517D8ED /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 1;
+		};
+		E45AA0F34AA241ED9FAF2A56 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		167C9A6296F0550CAFE6EE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3996DA94176A308900A59299 /* UIViewController2.m in Sources */,
+				3996DA93176A303000A59299 /* UIViewController1.m in Sources */,
+				167C92097C4162B3F4C59768 /* main.m in Sources */,
+				167C9E722301F552AEF9C98F /* AppDelegate.m in Sources */,
+				167C9BF4276ADDD525865339 /* SmartNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		167C9E9104520D54AEBB2744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167C962CA05A5E04B71F322A /* SmartNavigationControllerTests.m in Sources */,
+				167C9649F7B27645DFE69F9C /* UIViewController1.m in Sources */,
+				167C961B9403F8BF57FDBC45 /* UIViewController2.m in Sources */,
+				167C9F0060B9EF6A27F04152 /* SmartNavigationController1.m in Sources */,
+				167C922A515C8F563E794505 /* UIViewController1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		167C96661B689D99D24BB95E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 167C976DD5888985D3BFE1D6 /* SmartNavigationController */;
+			targetProxy = 167C98C7D98824D19346FB82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		167C9F8CA42D02C17C85D302 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				167C9EBE89D88A75B821AF58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		167C9FCBB1D56152370537C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				167C94E4C1EF529B4C4171AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		167C91A1F3FAF5A518666F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmartNavigationController.app/SmartNavigationController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartNavigationController/SmartNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "SmartNavigationControllerTests/SmartNavigationControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		167C94491B835D7AE8AFF54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmartNavigationController.app/SmartNavigationController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartNavigationController/SmartNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "SmartNavigationControllerTests/SmartNavigationControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		167C9896F937F4C9F49380B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADDITIONAL_SDKS = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+		167C9AA326ECFBF6E656D244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADDITIONAL_SDKS = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		167C9B4A19F304D94734419A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5FB2CC433B34BAAB472C52C /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartNavigationController/SmartNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "SmartNavigationController/SmartNavigationController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		167C9D97186D525E75629BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5FB2CC433B34BAAB472C52C /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartNavigationController/SmartNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "SmartNavigationController/SmartNavigationController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		167C916C045051748DBEAE79 /* Build configuration list for PBXNativeTarget "SmartNavigationControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167C91A1F3FAF5A518666F8C /* Release */,
+				167C94491B835D7AE8AFF54E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167C9479EEB9DF89C8881A9B /* Build configuration list for PBXNativeTarget "SmartNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167C9D97186D525E75629BFC /* Release */,
+				167C9B4A19F304D94734419A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167C9C1D991D552867283FA6 /* Build configuration list for PBXProject "SmartNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167C9896F937F4C9F49380B1 /* Release */,
+				167C9AA326ECFBF6E656D244 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 167C93A94F4D6163C204F9F0 /* Project object */;
+}

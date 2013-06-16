@@ -1,0 +1,10 @@
+PODS:
+  - CHDataStructures (0.0.1)
+
+DEPENDENCIES:
+  - CHDataStructures (~> 0.0.1)
+
+SPEC CHECKSUMS:
+  CHDataStructures: 6d1a20884af7b54605f0a8bc0b51d15abec64eb2
+
+COCOAPODS: 0.20.2
