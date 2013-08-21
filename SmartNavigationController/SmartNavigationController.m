@@ -39,7 +39,7 @@
 //@end
 
 @interface SmartNavigationController ()
-@property (nonatomic, retain) UIViewController *fakeRootViewController;
+@property UIViewController *fakeRootViewController;
 //@property (nonatomic, retain) CHListQueue *queue;
 @end
 
