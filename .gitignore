@@ -15,7 +15,12 @@ xcuserdata
 profile
 *.moved-aside
 DerivedData
+
+# Idea
 .idea/
 
 # CocoaPods
 Pods/
+
+# Git
+.gitignore
